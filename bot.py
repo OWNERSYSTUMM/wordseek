@@ -155,7 +155,7 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if guess_word in game["guessed"]:
         await context.bot.send_message(
             chat_id=chat_id,
-            "Someone has already guessed your word. Please try another one!"
+            text="Someone has already guessed your word. Please try another one!"
         )
         return
 
