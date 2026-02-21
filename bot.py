@@ -94,7 +94,7 @@ async def new_game(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     await context.bot.send_message(
         chat_id=chat_id,
-        "Game started! Guess the 6 letter word!"
+        text="Game started! Guess the 6 letter word!"
     )
 
 
