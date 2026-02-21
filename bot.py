@@ -18,7 +18,7 @@ WORD_LENGTH = 6
 MAX_ATTEMPTS = 6
 
 # Load words
-with open("words6.txt", "r") as f:
+with open("words.txt", "r") as f:
     WORDS = [w.strip().lower() for w in f if len(w.strip()) == WORD_LENGTH]
 
 # Store game per chat
