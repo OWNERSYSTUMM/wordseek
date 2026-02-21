@@ -122,7 +122,7 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # 🔥 ORIGINAL STYLE: Send new message every guess
     await context.bot.send_message(
         chat_id=chat_id,
-        f"{board_text}"
+        text=f"{board_text}"
     )
 
     # WIN
