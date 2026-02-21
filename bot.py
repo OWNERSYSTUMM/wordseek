@@ -46,17 +46,17 @@ games = {}
 
 # 🟩🟨🟥 Feedback
 def generate_feedback(secret, guess):
-    feedback = ["🟥"] * WORD_LENGTH
+    feedback = ["🔴"] * WORD_LENGTH
     secret_temp = list(secret)
 
     for i in range(WORD_LENGTH):
         if guess[i] == secret[i]:
-            feedback[i] = "🟩"
+            feedback[i] = "🟢"
             secret_temp[i] = None
 
     for i in range(WORD_LENGTH):
-        if feedback[i] == "🟥" and guess[i] in secret_temp:
-            feedback[i] = "🟨"
+        if feedback[i] == "🔴" and guess[i] in secret_temp:
+            feedback[i] = "🟡"
             secret_temp[secret_temp.index(guess[i])] = None
 
     return feedback
@@ -92,7 +92,7 @@ async def new_game(update: Update, context: ContextTypes.DEFAULT_TYPE):
     }
 
     await update.message.reply_text(
-        "🧠 WordSeek 6 Started!\nGuess the 6-letter word."
+        "Game started! Guess the 6 letter word!"
     )
 
 
@@ -103,11 +103,32 @@ async def end_game(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if chat_id not in games:
         return
 
-    secret = games[chat_id]["secret"]
+    game = games[chat_id]
+    secret = game["secret"]
 
-    await update.message.reply_text(
-        f"Game ended. Correct word was: {secret.upper()}"
-    )
+    user = update.effective_user.first_name
+
+    entry = DICTIONARY.get(secret, {})
+    pronunciation = entry.get("pronunciation")
+    meaning = entry.get("meaning")
+    example = entry.get("example")
+
+    message = "🎮 Game Ended\n\n"
+    message += f"📖 Correct Word: {secret}\n"
+
+    if pronunciation:
+        message += f"{secret.capitalize()} {pronunciation}\n\n"
+
+    if meaning:
+        message += f"Meaning: {meaning}\n"
+
+    if example:
+        message += f"\nExample: {example}\n"
+
+    message += f"\nEnded by game starter: {user}\n"
+    message += "Start a new game with /new"
+
+    await update.message.reply_text(message)
 
     del games[chat_id]
 
@@ -157,7 +178,7 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
     board_text = build_board(game["board"])
 
     await update.message.reply_text(
-        f"WordSeek\n{board_text}"
+        f"{board_text}"
     )
 
     # ✅ WIN
