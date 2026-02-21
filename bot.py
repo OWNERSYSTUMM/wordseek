@@ -18,14 +18,14 @@ WORD_LENGTH = 6
 MAX_ATTEMPTS = 6
 
 # Load words
-with open("words.txt", "r") as f:
+with open("words6.txt", "r") as f:
     WORDS = [w.strip().lower() for w in f if len(w.strip()) == WORD_LENGTH]
 
-# Store game per chat
+# Game storage
 games = {}
 
 
-# Wordle-style feedback
+# Wordle logic
 def generate_feedback(secret, guess):
     feedback = ["⬜"] * len(secret)
     secret_temp = list(secret)
@@ -45,30 +45,51 @@ def generate_feedback(secret, guess):
             else:
                 feedback[i] = "🟥"
 
-    return "".join(feedback)
+    return " ".join(feedback)
 
 
-# NEW GAME COMMAND
+# NEW GAME
 async def new_game(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
 
+    if chat_id in games:
+        await update.message.reply_text(
+            "⚠️ There is already a game in progress.\nUse /end to end it."
+        )
+        return
+
     secret = random.choice(WORDS)
+
+    msg = await update.message.reply_text(
+        "🧠 WordSeek 6 Started!\n\nGuess the 6-letter word."
+    )
 
     games[chat_id] = {
         "secret": secret,
         "attempts": 0,
         "board": [],
-        "guessed_words": set()
+        "guessed_words": set(),
+        "message_id": msg.message_id
     }
 
+
+# END GAME
+async def end_game(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    chat_id = update.effective_chat.id
+
+    if chat_id not in games:
+        return
+
+    secret = games[chat_id]["secret"]
+
     await update.message.reply_text(
-        f"🧠 WordSeek 6 Started!\n\n"
-        f"Guess the {WORD_LENGTH}-letter word.\n"
-        f"You have {MAX_ATTEMPTS} attempts."
+        f"❌ Game Ended!\nCorrect word was: {secret.upper()}"
     )
 
+    del games[chat_id]
 
-# Handle guesses
+
+# HANDLE GUESSES
 async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
 
@@ -78,16 +99,13 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
     guess_word = update.message.text.lower().strip()
 
     if len(guess_word) != WORD_LENGTH:
-        await update.message.reply_text(
-            f"❌ Word must be {WORD_LENGTH} letters."
-        )
         return
 
     game = games[chat_id]
 
-    # ❌ Prevent repeated guesses
+    # Prevent repeat guess
     if guess_word in game["guessed_words"]:
-        await update.message.reply_text("⚠️ You already tried this word!")
+        await update.message.reply_text("⚠️ Already tried this word!")
         return
 
     game["guessed_words"].add(guess_word)
@@ -95,11 +113,16 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     feedback = generate_feedback(game["secret"], guess_word)
 
-    game["board"].append(f"{feedback}  {guess_word.upper()}")
+    game["board"].append(f"{feedback}   {guess_word.upper()}")
 
     board_text = "\n".join(game["board"])
 
-    await update.message.reply_text(board_text)
+    # Edit same message
+    await context.bot.edit_message_text(
+        chat_id=chat_id,
+        message_id=game["message_id"],
+        text=f"🧠 WordSeek 6\n\n{board_text}"
+    )
 
     # Win
     if guess_word == game["secret"]:
@@ -119,6 +142,7 @@ def main():
     app = ApplicationBuilder().token(BOT_TOKEN).build()
 
     app.add_handler(CommandHandler("new", new_game))
+    app.add_handler(CommandHandler("end", end_game))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, guess))
 
     print("Bot running...")
