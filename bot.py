@@ -103,35 +103,30 @@ async def end_game(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if chat_id not in games:
         return
 
-    game = games[chat_id]
-    secret = game["secret"]
-
-    user = update.effective_user.first_name
-
+    secret = games[chat_id]["secret"]
     entry = DICTIONARY.get(secret, {})
-    pronunciation = entry.get("pronunciation")
     meaning = entry.get("meaning")
-    example = entry.get("example")
 
-    message = "🎮 Game Ended\n\n"
-    message += f"📖 Correct Word: {secret}\n"
+    message = (
+        "<blockquote>"
+        "🎮 Game Ended"
+        "</blockquote>\n\n"
 
-    if pronunciation:
-        message += f"{secret.capitalize()} {pronunciation}\n\n"
+        "<blockquote>"
+        f"Correct Word: {secret}\n"
+    )
 
     if meaning:
         message += f"Meaning: {meaning}\n"
 
-    if example:
-        message += f"\nExample: {example}\n"
+    message += "</blockquote>\nStart a new game with /new"
 
-    message += f"\nEnded by game starter: {user}\n"
-    message += "Start a new game with /new"
-
-    await update.message.reply_text(message)
+    await update.message.reply_text(
+        message,
+        parse_mode="HTML"
+    )
 
     del games[chat_id]
-
 
 # 🎮 GUESS
 async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
