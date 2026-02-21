@@ -16,7 +16,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 WORD_LENGTH = 6
 MAX_ATTEMPTS = 6
 
-with open("words6.txt", "r") as f:
+with open("words.txt", "r") as f:
     WORDS = [w.strip().lower() for w in f if len(w.strip()) == WORD_LENGTH]
 
 games = {}
