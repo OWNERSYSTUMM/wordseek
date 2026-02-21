@@ -1,0 +1,1366 @@
+{
+  "anchor": {
+    "pronunciation": "/ˈæŋkər/",
+    "meaning": "A heavy object used to moor a vessel to the sea bottom."
+  },
+  "animal": {
+    "pronunciation": "/ˈænɪməl/",
+    "meaning": "A living organism that feeds on organic matter."
+  },
+  "artist": {
+    "pronunciation": "/ˈɑːrtɪst/",
+    "meaning": "A person who creates art."
+  },
+  "attack": {
+    "pronunciation": "/əˈtæk/",
+    "meaning": "To take aggressive action against."
+  },
+  "beauty": {
+    "pronunciation": "/ˈbjuːti/",
+    "meaning": "A quality that gives pleasure to the senses."
+  },
+  "become": {
+    "pronunciation": "/bɪˈkʌm/",
+    "meaning": "To begin to be."
+  },
+  "belief": {
+    "pronunciation": "/bɪˈliːf/",
+    "meaning": "An acceptance that something is true."
+  },
+  "bishop": {
+    "pronunciation": "/ˈbɪʃəp/",
+    "meaning": "A senior member of the Christian clergy."
+  },
+  "border": {
+    "pronunciation": "/ˈbɔːrdər/",
+    "meaning": "A line separating two areas."
+  },
+  "bottle": {
+    "pronunciation": "/ˈbɒtl/",
+    "meaning": "A container with a narrow neck."
+  },
+  "branch": {
+    "pronunciation": "/bræntʃ/",
+    "meaning": "A part of a tree growing from the trunk."
+  },
+  "butter": {
+    "pronunciation": "/ˈbʌtər/",
+    "meaning": "A dairy product made from cream."
+  },
+  "camera": {
+    "pronunciation": "/ˈkæmərə/",
+    "meaning": "A device for recording images."
+  },
+  "carbon": {
+    "pronunciation": "/ˈkɑːrbən/",
+    "meaning": "A chemical element with symbol C."
+  },
+  "career": {
+    "pronunciation": "/kəˈrɪr/",
+    "meaning": "An occupation undertaken for a period of life."
+  },
+  "charge": {
+    "pronunciation": "/tʃɑːrdʒ/",
+    "meaning": "To demand payment or to accuse."
+  },
+  "choice": {
+    "pronunciation": "/tʃɔɪs/",
+    "meaning": "An act of selecting."
+  },
+  "church": {
+    "pronunciation": "/tʃɜːrtʃ/",
+    "meaning": "A building for Christian worship."
+  },
+  "client": {
+    "pronunciation": "/ˈklaɪənt/",
+    "meaning": "A person who uses services of a professional."
+  },
+  "coffee": {
+    "pronunciation": "/ˈkɒfi/",
+    "meaning": "A brewed drink prepared from roasted beans."
+  },
+  "column": {
+    "pronunciation": "/ˈkɒləm/",
+    "meaning": "A vertical structure or section."
+  },
+  "cookie": {
+    "pronunciation": "/ˈkʊki/",
+    "meaning": "A small sweet baked food item."
+  },
+  "cotton": {
+    "pronunciation": "/ˈkɒtən/",
+    "meaning": "A soft white fibrous substance."
+  },
+  "course": {
+    "pronunciation": "/kɔːrs/",
+    "meaning": "A series of lessons or meals."
+  },
+  "create": {
+    "pronunciation": "/kriˈeɪt/",
+    "meaning": "To bring something into existence."
+  },
+  "damage": {
+    "pronunciation": "/ˈdæmɪdʒ/",
+    "meaning": "Physical harm that reduces value."
+  },
+  "degree": {
+    "pronunciation": "/dɪˈɡriː/",
+    "meaning": "A unit of measurement or academic title."
+  },
+  "desert": {
+    "pronunciation": "/ˈdezərt/",
+    "meaning": "A dry, barren area of land."
+  },
+  "doctor": {
+    "pronunciation": "/ˈdɒktər/",
+    "meaning": "A qualified medical practitioner."
+  },
+  "double": {
+    "pronunciation": "/ˈdʌbəl/",
+    "meaning": "Twice as much."
+  },
+  "dreams": {
+    "pronunciation": "/driːmz/",
+    "meaning": "Experiences occurring in sleep."
+  },
+  "driven": {
+    "pronunciation": "/ˈdrɪvən/",
+    "meaning": "Motivated or propelled."
+  },
+  "energy": {
+    "pronunciation": "/ˈenərdʒi/",
+    "meaning": "The strength required for activity."
+  },
+  "engine": {
+    "pronunciation": "/ˈendʒɪn/",
+    "meaning": "A machine that converts power into motion."
+  },
+  "fabric": {
+    "pronunciation": "/ˈfæbrɪk/",
+    "meaning": "Cloth produced by weaving fibers."
+  },
+  "father": {
+    "pronunciation": "/ˈfɑːðər/",
+    "meaning": "A male parent."
+  },
+  "flight": {
+    "pronunciation": "/flaɪt/",
+    "meaning": "The action of flying."
+  },
+  "flower": {
+    "pronunciation": "/ˈflaʊər/",
+    "meaning": "The reproductive structure of a plant."
+  },
+  "friend": {
+    "pronunciation": "/frend/",
+    "meaning": "A person with mutual affection."
+  },
+  "future": {
+    "pronunciation": "/ˈfjuːtʃər/",
+    "meaning": "The time yet to come."
+  },
+  "golden": {
+    "pronunciation": "/ˈɡoʊldən/",
+    "meaning": "Made of or resembling gold."
+  },
+  "ground": {
+    "pronunciation": "/ɡraʊnd/",
+    "meaning": "The solid surface of the earth."
+  },
+  "growth": {
+    "pronunciation": "/ɡroʊθ/",
+    "meaning": "The process of increasing."
+  },
+  "health": {
+    "pronunciation": "/helθ/",
+    "meaning": "The state of being free from illness."
+  },
+  "honest": {
+    "pronunciation": "/ˈɒnɪst/",
+    "meaning": "Truthful and sincere."
+  },
+  "impact": {
+    "pronunciation": "/ˈɪmpækt/",
+    "meaning": "A strong effect or influence."
+  },
+  "island": {
+    "pronunciation": "/ˈaɪlənd/",
+    "meaning": "A piece of land surrounded by water."
+  },
+  "jungle": {
+    "pronunciation": "/ˈdʒʌŋɡəl/",
+    "meaning": "An area of dense tropical forest."
+  },
+  "little": {
+    "pronunciation": "/ˈlɪtəl/",
+    "meaning": "Small in size."
+  },
+  "market": {
+    "pronunciation": "/ˈmɑːrkɪt/",
+    "meaning": "A place where goods are bought and sold."
+  }
+}
+{
+  "memory": {
+    "pronunciation": "/ˈmeməri/",
+    "meaning": "The ability to remember information or past events."
+  },
+  "method": {
+    "pronunciation": "/ˈmeθəd/",
+    "meaning": "A particular procedure for accomplishing something."
+  },
+  "nation": {
+    "pronunciation": "/ˈneɪʃən/",
+    "meaning": "A large body of people united by common descent or history."
+  },
+  "normal": {
+    "pronunciation": "/ˈnɔːrməl/",
+    "meaning": "Conforming to a standard; usual or typical."
+  },
+  "object": {
+    "pronunciation": "/ˈɒbdʒekt/",
+    "meaning": "A material thing that can be seen and touched."
+  },
+  "office": {
+    "pronunciation": "/ˈɒfɪs/",
+    "meaning": "A room or building used for business purposes."
+  },
+  "people": {
+    "pronunciation": "/ˈpiːpəl/",
+    "meaning": "Human beings in general."
+  },
+  "prince": {
+    "pronunciation": "/prɪns/",
+    "meaning": "A male member of a royal family."
+  },
+  "reason": {
+    "pronunciation": "/ˈriːzən/",
+    "meaning": "A cause or explanation for an action."
+  },
+  "safety": {
+    "pronunciation": "/ˈseɪfti/",
+    "meaning": "The condition of being protected from danger."
+  },
+  "school": {
+    "pronunciation": "/skuːl/",
+    "meaning": "An institution for educating children."
+  },
+  "simple": {
+    "pronunciation": "/ˈsɪmpəl/",
+    "meaning": "Easy to understand or do."
+  },
+  "smooth": {
+    "pronunciation": "/smuːð/",
+    "meaning": "Having an even and regular surface."
+  },
+  "speech": {
+    "pronunciation": "/spiːtʃ/",
+    "meaning": "The expression of thoughts in spoken words."
+  },
+  "spring": {
+    "pronunciation": "/sprɪŋ/",
+    "meaning": "The season after winter and before summer."
+  },
+  "street": {
+    "pronunciation": "/striːt/",
+    "meaning": "A public road in a city or town."
+  },
+  "strong": {
+    "pronunciation": "/strɒŋ/",
+    "meaning": "Having great strength or power."
+  },
+  "summer": {
+    "pronunciation": "/ˈsʌmər/",
+    "meaning": "The warmest season of the year."
+  },
+  "system": {
+    "pronunciation": "/ˈsɪstəm/",
+    "meaning": "A set of connected things forming a complex whole."
+  },
+  "travel": {
+    "pronunciation": "/ˈtrævəl/",
+    "meaning": "To make a journey."
+  },
+  "unique": {
+    "pronunciation": "/juːˈniːk/",
+    "meaning": "Being the only one of its kind."
+  },
+  "vision": {
+    "pronunciation": "/ˈvɪʒən/",
+    "meaning": "The ability to see or a mental image."
+  },
+  "wealth": {
+    "pronunciation": "/welθ/",
+    "meaning": "An abundance of valuable possessions."
+  },
+  "window": {
+    "pronunciation": "/ˈwɪndoʊ/",
+    "meaning": "An opening in a wall fitted with glass."
+  },
+  "wonder": {
+    "pronunciation": "/ˈwʌndər/",
+    "meaning": "A feeling of amazement or admiration."
+  },
+  "worker": {
+    "pronunciation": "/ˈwɜːrkər/",
+    "meaning": "A person who works."
+  },
+  "writer": {
+    "pronunciation": "/ˈraɪtər/",
+    "meaning": "A person who writes books or articles."
+  },
+  "yellow": {
+    "pronunciation": "/ˈjeloʊ/",
+    "meaning": "A color between green and orange."
+  },
+  "planet": {
+    "pronunciation": "/ˈplænɪt/",
+    "meaning": "A celestial body orbiting a star."
+  },
+  "silver": {
+    "pronunciation": "/ˈsɪlvər/",
+    "meaning": "A shiny gray-white precious metal."
+  },
+  "danger": {
+    "pronunciation": "/ˈdeɪndʒər/",
+    "meaning": "The possibility of harm or injury."
+  },
+  "rocket": {
+    "pronunciation": "/ˈrɒkɪt/",
+    "meaning": "A vehicle propelled by thrust."
+  },
+  "mirror": {
+    "pronunciation": "/ˈmɪrər/",
+    "meaning": "A reflective surface showing images."
+  },
+  "castle": {
+    "pronunciation": "/ˈkæsəl/",
+    "meaning": "A large fortified building."
+  },
+  "dragon": {
+    "pronunciation": "/ˈdræɡən/",
+    "meaning": "A mythical fire-breathing creature."
+  },
+  "spirit": {
+    "pronunciation": "/ˈspɪrɪt/",
+    "meaning": "The non-physical part of a person."
+  },
+  "bridge": {
+    "pronunciation": "/brɪdʒ/",
+    "meaning": "A structure built to span a river or road."
+  },
+  "forest": {
+    "pronunciation": "/ˈfɒrɪst/",
+    "meaning": "A large area covered chiefly with trees."
+  },
+  "winter": {
+    "pronunciation": "/ˈwɪntər/",
+    "meaning": "The coldest season of the year."
+  },
+  "hunter": {
+    "pronunciation": "/ˈhʌntər/",
+    "meaning": "A person who hunts animals."
+  },
+  "shadow": {
+    "pronunciation": "/ˈʃædoʊ/",
+    "meaning": "A dark area caused by blocking light."
+  },
+  "bright": {
+    "pronunciation": "/braɪt/",
+    "meaning": "Giving out much light."
+  },
+  "circle": {
+    "pronunciation": "/ˈsɜːrkəl/",
+    "meaning": "A round plane figure."
+  }
+}
+{
+  "abroad": {
+    "pronunciation": "/əˈbrɔːd/",
+    "meaning": "In or to a foreign country."
+  },
+  "absorb": {
+    "pronunciation": "/əbˈzɔːrb/",
+    "meaning": "To take in or soak up."
+  },
+  "accent": {
+    "pronunciation": "/ˈæksent/",
+    "meaning": "A distinctive way of pronouncing a language."
+  },
+  "access": {
+    "pronunciation": "/ˈækses/",
+    "meaning": "The means of approaching or entering."
+  },
+  "acting": {
+    "pronunciation": "/ˈæktɪŋ/",
+    "meaning": "The art or occupation of performing in plays or films."
+  },
+  "action": {
+    "pronunciation": "/ˈækʃən/",
+    "meaning": "The process of doing something."
+  },
+  "active": {
+    "pronunciation": "/ˈæktɪv/",
+    "meaning": "Engaging or ready to engage in activity."
+  },
+  "actual": {
+    "pronunciation": "/ˈæktʃuəl/",
+    "meaning": "Existing in fact; real."
+  },
+  "admits": {
+    "pronunciation": "/ədˈmɪts/",
+    "meaning": "Confesses to be true."
+  },
+  "adopts": {
+    "pronunciation": "/əˈdɒpts/",
+    "meaning": "Takes up or starts to use."
+  },
+  "adults": {
+    "pronunciation": "/ˈædʌlts/",
+    "meaning": "Fully grown persons."
+  },
+  "advice": {
+    "pronunciation": "/ədˈvaɪs/",
+    "meaning": "Guidance or recommendations."
+  },
+  "affect": {
+    "pronunciation": "/əˈfekt/",
+    "meaning": "To have an influence on."
+  },
+  "afford": {
+    "pronunciation": "/əˈfɔːrd/",
+    "meaning": "To have enough money to pay for."
+  },
+  "afraid": {
+    "pronunciation": "/əˈfreɪd/",
+    "meaning": "Feeling fear or anxiety."
+  },
+  "agency": {
+    "pronunciation": "/ˈeɪdʒənsi/",
+    "meaning": "A business providing a particular service."
+  },
+  "agenda": {
+    "pronunciation": "/əˈdʒendə/",
+    "meaning": "A list of items to be discussed."
+  },
+  "almost": {
+    "pronunciation": "/ˈɔːlmoʊst/",
+    "meaning": "Not quite; very nearly."
+  },
+  "always": {
+    "pronunciation": "/ˈɔːlweɪz/",
+    "meaning": "At all times."
+  },
+  "amazed": {
+    "pronunciation": "/əˈmeɪzd/",
+    "meaning": "Filled with surprise."
+  },
+  "amount": {
+    "pronunciation": "/əˈmaʊnt/",
+    "meaning": "A quantity of something."
+  },
+  "annual": {
+    "pronunciation": "/ˈænjuəl/",
+    "meaning": "Occurring once every year."
+  },
+  "answer": {
+    "pronunciation": "/ˈænsər/",
+    "meaning": "A response to a question."
+  },
+  "anyway": {
+    "pronunciation": "/ˈeniweɪ/",
+    "meaning": "In any case."
+  },
+  "appeal": {
+    "pronunciation": "/əˈpiːl/",
+    "meaning": "To make a serious request."
+  },
+  "appear": {
+    "pronunciation": "/əˈpɪr/",
+    "meaning": "To become visible."
+  },
+  "around": {
+    "pronunciation": "/əˈraʊnd/",
+    "meaning": "Located or situated on every side."
+  },
+  "arrive": {
+    "pronunciation": "/əˈraɪv/",
+    "meaning": "To reach a destination."
+  },
+  "aspect": {
+    "pronunciation": "/ˈæspekt/",
+    "meaning": "A particular part or feature."
+  },
+  "assume": {
+    "pronunciation": "/əˈsuːm/",
+    "meaning": "To suppose something to be the case."
+  },
+  "attend": {
+    "pronunciation": "/əˈtend/",
+    "meaning": "To be present at."
+  },
+  "august": {
+    "pronunciation": "/ˈɔːɡəst/",
+    "meaning": "The eighth month of the year."
+  },
+  "author": {
+    "pronunciation": "/ˈɔːθər/",
+    "meaning": "A writer of a book or article."
+  },
+  "backup": {
+    "pronunciation": "/ˈbækʌp/",
+    "meaning": "Support or reserve supply."
+  },
+  "barely": {
+    "pronunciation": "/ˈberli/",
+    "meaning": "Only just; almost not."
+  },
+  "battle": {
+    "pronunciation": "/ˈbætəl/",
+    "meaning": "A fight between armed forces."
+  },
+  "before": {
+    "pronunciation": "/bɪˈfɔːr/",
+    "meaning": "Earlier than a particular time."
+  },
+  "behalf": {
+    "pronunciation": "/bɪˈhæf/",
+    "meaning": "In the interest of."
+  },
+  "behind": {
+    "pronunciation": "/bɪˈhaɪnd/",
+    "meaning": "At the back of."
+  },
+  "belong": {
+    "pronunciation": "/bɪˈlɔːŋ/",
+    "meaning": "To be the property of."
+  },
+  "better": {
+    "pronunciation": "/ˈbetər/",
+    "meaning": "Of a more excellent quality."
+  },
+  "beyond": {
+    "pronunciation": "/bɪˈjɒnd/",
+    "meaning": "Further than."
+  },
+  "bottom": {
+    "pronunciation": "/ˈbɒtəm/",
+    "meaning": "The lowest point."
+  },
+  "breath": {
+    "pronunciation": "/breθ/",
+    "meaning": "Air taken into or expelled from lungs."
+  },
+  "broken": {
+    "pronunciation": "/ˈbroʊkən/",
+    "meaning": "Having been fractured or damaged."
+  },
+  "budget": {
+    "pronunciation": "/ˈbʌdʒɪt/",
+    "meaning": "An estimate of income and expenditure."
+  },
+  "burden": {
+    "pronunciation": "/ˈbɜːrdən/",
+    "meaning": "A heavy load or responsibility."
+  }
+}
+{
+  "candle": {
+    "pronunciation": "/ˈkændl/",
+    "meaning": "A cylinder of wax with a wick that produces light."
+  },
+  "cannot": {
+    "pronunciation": "/ˈkænɒt/",
+    "meaning": "Be unable to."
+  },
+  "carbon": {
+    "pronunciation": "/ˈkɑːrbən/",
+    "meaning": "A chemical element with symbol C."
+  },
+  "career": {
+    "pronunciation": "/kəˈrɪr/",
+    "meaning": "An occupation undertaken for a long period."
+  },
+  "castle": {
+    "pronunciation": "/ˈkæsəl/",
+    "meaning": "A large fortified building."
+  },
+  "casual": {
+    "pronunciation": "/ˈkæʒuəl/",
+    "meaning": "Relaxed and unconcerned."
+  },
+  "caught": {
+    "pronunciation": "/kɔːt/",
+    "meaning": "Past tense of catch."
+  },
+  "center": {
+    "pronunciation": "/ˈsentər/",
+    "meaning": "The middle point of something."
+  },
+  "chance": {
+    "pronunciation": "/tʃæns/",
+    "meaning": "A possibility of something happening."
+  },
+  "change": {
+    "pronunciation": "/tʃeɪndʒ/",
+    "meaning": "To make or become different."
+  },
+  "choose": {
+    "pronunciation": "/tʃuːz/",
+    "meaning": "To select from options."
+  },
+  "closed": {
+    "pronunciation": "/kloʊzd/",
+    "meaning": "Not open."
+  },
+  "closer": {
+    "pronunciation": "/ˈkloʊsər/",
+    "meaning": "Nearer in distance."
+  },
+  "corner": {
+    "pronunciation": "/ˈkɔːrnər/",
+    "meaning": "A place where two lines meet."
+  },
+  "county": {
+    "pronunciation": "/ˈkaʊnti/",
+    "meaning": "A territorial division of a country."
+  },
+  "couple": {
+    "pronunciation": "/ˈkʌpəl/",
+    "meaning": "Two people or things."
+  },
+  "credit": {
+    "pronunciation": "/ˈkredɪt/",
+    "meaning": "The ability to obtain goods before payment."
+  },
+  "dealer": {
+    "pronunciation": "/ˈdiːlər/",
+    "meaning": "A person who buys and sells goods."
+  },
+  "debate": {
+    "pronunciation": "/dɪˈbeɪt/",
+    "meaning": "A formal discussion on a topic."
+  },
+  "decide": {
+    "pronunciation": "/dɪˈsaɪd/",
+    "meaning": "To make a choice."
+  },
+  "demand": {
+    "pronunciation": "/dɪˈmænd/",
+    "meaning": "An insistent request."
+  },
+  "depend": {
+    "pronunciation": "/dɪˈpend/",
+    "meaning": "To rely on."
+  },
+  "design": {
+    "pronunciation": "/dɪˈzaɪn/",
+    "meaning": "A plan or drawing produced to show look and function."
+  },
+  "detail": {
+    "pronunciation": "/ˈdiːteɪl/",
+    "meaning": "An individual feature."
+  },
+  "device": {
+    "pronunciation": "/dɪˈvaɪs/",
+    "meaning": "A piece of equipment made for a purpose."
+  },
+  "dinner": {
+    "pronunciation": "/ˈdɪnər/",
+    "meaning": "The main meal of the day."
+  },
+  "direct": {
+    "pronunciation": "/dɪˈrekt/",
+    "meaning": "Straight; without deviation."
+  },
+  "doctor": {
+    "pronunciation": "/ˈdɒktər/",
+    "meaning": "A qualified medical practitioner."
+  },
+  "double": {
+    "pronunciation": "/ˈdʌbəl/",
+    "meaning": "Twice as much."
+  },
+  "driven": {
+    "pronunciation": "/ˈdrɪvən/",
+    "meaning": "Motivated or propelled."
+  },
+  "driver": {
+    "pronunciation": "/ˈdraɪvər/",
+    "meaning": "A person who drives a vehicle."
+  },
+  "during": {
+    "pronunciation": "/ˈdjʊərɪŋ/",
+    "meaning": "Throughout the course of."
+  },
+  "easily": {
+    "pronunciation": "/ˈiːzəli/",
+    "meaning": "Without difficulty."
+  },
+  "effect": {
+    "pronunciation": "/ɪˈfekt/",
+    "meaning": "A change resulting from an action."
+  },
+  "effort": {
+    "pronunciation": "/ˈefərt/",
+    "meaning": "A vigorous attempt."
+  },
+  "either": {
+    "pronunciation": "/ˈaɪðər/",
+    "meaning": "One or the other of two."
+  },
+  "enough": {
+    "pronunciation": "/ɪˈnʌf/",
+    "meaning": "As much as required."
+  },
+  "ensure": {
+    "pronunciation": "/ɪnˈʃʊr/",
+    "meaning": "To make certain."
+  },
+  "entire": {
+    "pronunciation": "/ɪnˈtaɪər/",
+    "meaning": "With no part left out."
+  },
+  "escape": {
+    "pronunciation": "/ɪˈskeɪp/",
+    "meaning": "To break free from confinement."
+  },
+  "estate": {
+    "pronunciation": "/ɪˈsteɪt/",
+    "meaning": "A large area of land."
+  },
+  "except": {
+    "pronunciation": "/ɪkˈsept/",
+    "meaning": "Not including."
+  },
+  "expand": {
+    "pronunciation": "/ɪkˈspænd/",
+    "meaning": "To increase in size."
+  },
+  "expect": {
+    "pronunciation": "/ɪkˈspekt/",
+    "meaning": "To regard as likely."
+  },
+  "expert": {
+    "pronunciation": "/ˈekspɜːrt/",
+    "meaning": "A person with special knowledge."
+  },
+  "export": {
+    "pronunciation": "/ˈekspɔːrt/",
+    "meaning": "To send goods to another country."
+  },
+  "extend": {
+    "pronunciation": "/ɪkˈstend/",
+    "meaning": "To make longer or larger."
+  },
+  "facing": {
+    "pronunciation": "/ˈfeɪsɪŋ/",
+    "meaning": "Turning toward something."
+  },
+  "factor": {
+    "pronunciation": "/ˈfæktər/",
+    "meaning": "A circumstance influencing a result."
+  }
+}
+{
+  "family": {
+    "pronunciation": "/ˈfæməli/",
+    "meaning": "A group consisting of parents and children."
+  },
+  "famous": {
+    "pronunciation": "/ˈfeɪməs/",
+    "meaning": "Known by many people."
+  },
+  "father": {
+    "pronunciation": "/ˈfɑːðər/",
+    "meaning": "A male parent."
+  },
+  "figure": {
+    "pronunciation": "/ˈfɪɡjər/",
+    "meaning": "A number or a shape."
+  },
+  "finger": {
+    "pronunciation": "/ˈfɪŋɡər/",
+    "meaning": "One of the five digits of the hand."
+  },
+  "finish": {
+    "pronunciation": "/ˈfɪnɪʃ/",
+    "meaning": "To complete something."
+  },
+  "flight": {
+    "pronunciation": "/flaɪt/",
+    "meaning": "The act of flying."
+  },
+  "flower": {
+    "pronunciation": "/ˈflaʊər/",
+    "meaning": "The bloom of a plant."
+  },
+  "forest": {
+    "pronunciation": "/ˈfɒrɪst/",
+    "meaning": "A large area covered with trees."
+  },
+  "forget": {
+    "pronunciation": "/fərˈɡet/",
+    "meaning": "To fail to remember."
+  },
+  "formal": {
+    "pronunciation": "/ˈfɔːrməl/",
+    "meaning": "Done according to rules or customs."
+  },
+  "format": {
+    "pronunciation": "/ˈfɔːrmæt/",
+    "meaning": "The arrangement or layout."
+  },
+  "former": {
+    "pronunciation": "/ˈfɔːrmər/",
+    "meaning": "Having previously been."
+  },
+  "friend": {
+    "pronunciation": "/frend/",
+    "meaning": "A person you like and trust."
+  },
+  "future": {
+    "pronunciation": "/ˈfjuːtʃər/",
+    "meaning": "The time yet to come."
+  },
+  "global": {
+    "pronunciation": "/ˈɡloʊbəl/",
+    "meaning": "Relating to the whole world."
+  },
+  "golden": {
+    "pronunciation": "/ˈɡoʊldən/",
+    "meaning": "Made of or resembling gold."
+  },
+  "ground": {
+    "pronunciation": "/ɡraʊnd/",
+    "meaning": "The solid surface of the earth."
+  },
+  "growth": {
+    "pronunciation": "/ɡroʊθ/",
+    "meaning": "The process of increasing."
+  },
+  "handle": {
+    "pronunciation": "/ˈhændəl/",
+    "meaning": "To deal with or manage."
+  },
+  "happen": {
+    "pronunciation": "/ˈhæpən/",
+    "meaning": "To take place."
+  },
+  "hardly": {
+    "pronunciation": "/ˈhɑːrdli/",
+    "meaning": "Almost not."
+  },
+  "health": {
+    "pronunciation": "/helθ/",
+    "meaning": "The state of being well."
+  },
+  "height": {
+    "pronunciation": "/haɪt/",
+    "meaning": "The measurement from base to top."
+  },
+  "hidden": {
+    "pronunciation": "/ˈhɪdən/",
+    "meaning": "Kept out of sight."
+  },
+  "honest": {
+    "pronunciation": "/ˈɒnɪst/",
+    "meaning": "Truthful and sincere."
+  },
+  "impact": {
+    "pronunciation": "/ˈɪmpækt/",
+    "meaning": "A strong effect."
+  },
+  "income": {
+    "pronunciation": "/ˈɪnkʌm/",
+    "meaning": "Money received regularly."
+  },
+  "indeed": {
+    "pronunciation": "/ɪnˈdiːd/",
+    "meaning": "In fact; truly."
+  },
+  "injury": {
+    "pronunciation": "/ˈɪndʒəri/",
+    "meaning": "Physical harm or damage."
+  },
+  "inside": {
+    "pronunciation": "/ɪnˈsaɪd/",
+    "meaning": "The inner side."
+  },
+  "intend": {
+    "pronunciation": "/ɪnˈtend/",
+    "meaning": "To have a plan or purpose."
+  },
+  "island": {
+    "pronunciation": "/ˈaɪlənd/",
+    "meaning": "Land surrounded by water."
+  },
+  "itself": {
+    "pronunciation": "/ɪtˈself/",
+    "meaning": "Refers back to something previously mentioned."
+  },
+  "junior": {
+    "pronunciation": "/ˈdʒuːnjər/",
+    "meaning": "Lower in rank or younger."
+  },
+  "latest": {
+    "pronunciation": "/ˈleɪtɪst/",
+    "meaning": "Most recent."
+  },
+  "launch": {
+    "pronunciation": "/lɔːntʃ/",
+    "meaning": "To set in motion."
+  },
+  "leader": {
+    "pronunciation": "/ˈliːdər/",
+    "meaning": "A person who leads."
+  },
+  "league": {
+    "pronunciation": "/liːɡ/",
+    "meaning": "A group of teams or organizations."
+  },
+  "length": {
+    "pronunciation": "/leŋθ/",
+    "meaning": "The measurement of something from end to end."
+  },
+  "lesson": {
+    "pronunciation": "/ˈlesən/",
+    "meaning": "A period of learning."
+  },
+  "letter": {
+    "pronunciation": "/ˈletər/",
+    "meaning": "A written message."
+  },
+  "likely": {
+    "pronunciation": "/ˈlaɪkli/",
+    "meaning": "Probable."
+  },
+  "listen": {
+    "pronunciation": "/ˈlɪsən/",
+    "meaning": "To give attention to sound."
+  },
+  "little": {
+    "pronunciation": "/ˈlɪtəl/",
+    "meaning": "Small in size."
+  },
+  "living": {
+    "pronunciation": "/ˈlɪvɪŋ/",
+    "meaning": "Alive."
+  },
+  "manage": {
+    "pronunciation": "/ˈmænɪdʒ/",
+    "meaning": "To control or direct."
+  },
+  "manual": {
+    "pronunciation": "/ˈmænjuəl/",
+    "meaning": "Done by hand."
+  },
+  "market": {
+    "pronunciation": "/ˈmɑːrkɪt/",
+    "meaning": "A place for buying and selling goods."
+  }
+}
+{
+  "matter": {
+    "pronunciation": "/ˈmætər/",
+    "meaning": "A subject or situation under consideration."
+  },
+  "medium": {
+    "pronunciation": "/ˈmiːdiəm/",
+    "meaning": "A means of communication or expression."
+  },
+  "member": {
+    "pronunciation": "/ˈmembər/",
+    "meaning": "A person belonging to a group."
+  },
+  "memory": {
+    "pronunciation": "/ˈmeməri/",
+    "meaning": "The ability to remember information."
+  },
+  "method": {
+    "pronunciation": "/ˈmeθəd/",
+    "meaning": "A way of doing something."
+  },
+  "middle": {
+    "pronunciation": "/ˈmɪdəl/",
+    "meaning": "The center point."
+  },
+  "modern": {
+    "pronunciation": "/ˈmɒdərn/",
+    "meaning": "Relating to present times."
+  },
+  "moment": {
+    "pronunciation": "/ˈmoʊmənt/",
+    "meaning": "A very short period of time."
+  },
+  "mother": {
+    "pronunciation": "/ˈmʌðər/",
+    "meaning": "A female parent."
+  },
+  "nation": {
+    "pronunciation": "/ˈneɪʃən/",
+    "meaning": "A country with its own government."
+  },
+  "native": {
+    "pronunciation": "/ˈneɪtɪv/",
+    "meaning": "Belonging to a particular place by birth."
+  },
+  "nearby": {
+    "pronunciation": "/ˈnɪrbaɪ/",
+    "meaning": "Close at hand."
+  },
+  "nearly": {
+    "pronunciation": "/ˈnɪrli/",
+    "meaning": "Almost."
+  },
+  "normal": {
+    "pronunciation": "/ˈnɔːrməl/",
+    "meaning": "Conforming to a standard."
+  },
+  "notice": {
+    "pronunciation": "/ˈnoʊtɪs/",
+    "meaning": "To become aware of."
+  },
+  "number": {
+    "pronunciation": "/ˈnʌmbər/",
+    "meaning": "A mathematical value."
+  },
+  "object": {
+    "pronunciation": "/ˈɒbdʒekt/",
+    "meaning": "A material thing."
+  },
+  "office": {
+    "pronunciation": "/ˈɒfɪs/",
+    "meaning": "A place where professional work is done."
+  },
+  "option": {
+    "pronunciation": "/ˈɒpʃən/",
+    "meaning": "A choice."
+  },
+  "origin": {
+    "pronunciation": "/ˈɒrɪdʒɪn/",
+    "meaning": "The point where something begins."
+  },
+  "others": {
+    "pronunciation": "/ˈʌðərz/",
+    "meaning": "People or things different from oneself."
+  },
+  "output": {
+    "pronunciation": "/ˈaʊtpʊt/",
+    "meaning": "The amount produced."
+  },
+  "parent": {
+    "pronunciation": "/ˈperənt/",
+    "meaning": "A father or mother."
+  },
+  "period": {
+    "pronunciation": "/ˈpɪriəd/",
+    "meaning": "A length of time."
+  },
+  "person": {
+    "pronunciation": "/ˈpɜːrsən/",
+    "meaning": "A human being."
+  },
+  "phrase": {
+    "pronunciation": "/freɪz/",
+    "meaning": "A small group of words."
+  },
+  "planet": {
+    "pronunciation": "/ˈplænɪt/",
+    "meaning": "A large body orbiting a star."
+  },
+  "please": {
+    "pronunciation": "/pliːz/",
+    "meaning": "Used to make a polite request."
+  },
+  "policy": {
+    "pronunciation": "/ˈpɒləsi/",
+    "meaning": "A course of action adopted by an organization."
+  },
+  "prefer": {
+    "pronunciation": "/prɪˈfɜːr/",
+    "meaning": "To like one thing more than another."
+  },
+  "pretty": {
+    "pronunciation": "/ˈprɪti/",
+    "meaning": "Attractive in a delicate way."
+  },
+  "prince": {
+    "pronunciation": "/prɪns/",
+    "meaning": "A male royal ruler."
+  },
+  "prison": {
+    "pronunciation": "/ˈprɪzən/",
+    "meaning": "A place for criminals."
+  },
+  "profit": {
+    "pronunciation": "/ˈprɒfɪt/",
+    "meaning": "Financial gain."
+  },
+  "proper": {
+    "pronunciation": "/ˈprɒpər/",
+    "meaning": "Correct or appropriate."
+  },
+  "public": {
+    "pronunciation": "/ˈpʌblɪk/",
+    "meaning": "Relating to people in general."
+  },
+  "random": {
+    "pronunciation": "/ˈrændəm/",
+    "meaning": "Made without method."
+  },
+  "rather": {
+    "pronunciation": "/ˈrɑːðər/",
+    "meaning": "To some degree."
+  },
+  "reason": {
+    "pronunciation": "/ˈriːzən/",
+    "meaning": "A cause or explanation."
+  },
+  "region": {
+    "pronunciation": "/ˈriːdʒən/",
+    "meaning": "An area of land."
+  },
+  "remain": {
+    "pronunciation": "/rɪˈmeɪn/",
+    "meaning": "To continue to exist."
+  },
+  "remove": {
+    "pronunciation": "/rɪˈmuːv/",
+    "meaning": "To take away."
+  },
+  "repair": {
+    "pronunciation": "/rɪˈper/",
+    "meaning": "To fix something."
+  },
+  "repeat": {
+    "pronunciation": "/rɪˈpiːt/",
+    "meaning": "To say or do again."
+  },
+  "report": {
+    "pronunciation": "/rɪˈpɔːrt/",
+    "meaning": "A written or spoken account."
+  },
+  "result": {
+    "pronunciation": "/rɪˈzʌlt/",
+    "meaning": "An outcome."
+  },
+  "return": {
+    "pronunciation": "/rɪˈtɜːrn/",
+    "meaning": "To go back."
+  },
+  "reveal": {
+    "pronunciation": "/rɪˈviːl/",
+    "meaning": "To make known."
+  },
+  "review": {
+    "pronunciation": "/rɪˈvjuː/",
+    "meaning": "To examine again."
+  },
+  "rights": {
+    "pronunciation": "/raɪts/",
+    "meaning": "Moral or legal entitlements."
+  }
+}
+{
+  "school": {
+    "pronunciation": "/skuːl/",
+    "meaning": "A place where children receive education."
+  },
+  "screen": {
+    "pronunciation": "/skriːn/",
+    "meaning": "A flat surface displaying images."
+  },
+  "search": {
+    "pronunciation": "/sɜːrtʃ/",
+    "meaning": "To look carefully for something."
+  },
+  "season": {
+    "pronunciation": "/ˈsiːzən/",
+    "meaning": "One of the four divisions of the year."
+  },
+  "second": {
+    "pronunciation": "/ˈsekənd/",
+    "meaning": "A unit of time or position after first."
+  },
+  "secret": {
+    "pronunciation": "/ˈsiːkrət/",
+    "meaning": "Something kept hidden."
+  },
+  "series": {
+    "pronunciation": "/ˈsɪəriːz/",
+    "meaning": "A number of things in order."
+  },
+  "server": {
+    "pronunciation": "/ˈsɜːrvər/",
+    "meaning": "A computer providing data or services."
+  },
+  "settle": {
+    "pronunciation": "/ˈsetəl/",
+    "meaning": "To resolve or come to rest."
+  },
+  "should": {
+    "pronunciation": "/ʃʊd/",
+    "meaning": "Used to indicate obligation."
+  },
+  "signal": {
+    "pronunciation": "/ˈsɪɡnəl/",
+    "meaning": "A sign conveying information."
+  },
+  "single": {
+    "pronunciation": "/ˈsɪŋɡəl/",
+    "meaning": "Only one."
+  },
+  "sister": {
+    "pronunciation": "/ˈsɪstər/",
+    "meaning": "A female sibling."
+  },
+  "smooth": {
+    "pronunciation": "/smuːð/",
+    "meaning": "Having an even surface."
+  },
+  "social": {
+    "pronunciation": "/ˈsoʊʃəl/",
+    "meaning": "Relating to society."
+  },
+  "source": {
+    "pronunciation": "/sɔːrs/",
+    "meaning": "The origin of something."
+  },
+  "speech": {
+    "pronunciation": "/spiːtʃ/",
+    "meaning": "The expression of thoughts by speaking."
+  },
+  "spirit": {
+    "pronunciation": "/ˈspɪrɪt/",
+    "meaning": "The nonphysical part of a person."
+  },
+  "spread": {
+    "pronunciation": "/spred/",
+    "meaning": "To extend over an area."
+  },
+  "spring": {
+    "pronunciation": "/sprɪŋ/",
+    "meaning": "The season between winter and summer."
+  },
+  "square": {
+    "pronunciation": "/skwer/",
+    "meaning": "A shape with four equal sides."
+  },
+  "status": {
+    "pronunciation": "/ˈsteɪtəs/",
+    "meaning": "A position or rank."
+  },
+  "steady": {
+    "pronunciation": "/ˈstedi/",
+    "meaning": "Firm and stable."
+  },
+  "street": {
+    "pronunciation": "/striːt/",
+    "meaning": "A public road in a city."
+  },
+  "strong": {
+    "pronunciation": "/strɒŋ/",
+    "meaning": "Having power or strength."
+  },
+  "studio": {
+    "pronunciation": "/ˈstjuːdi.oʊ/",
+    "meaning": "A place for recording or art."
+  },
+  "submit": {
+    "pronunciation": "/səbˈmɪt/",
+    "meaning": "To present for consideration."
+  },
+  "sudden": {
+    "pronunciation": "/ˈsʌdən/",
+    "meaning": "Happening quickly."
+  },
+  "supply": {
+    "pronunciation": "/səˈplaɪ/",
+    "meaning": "To provide something needed."
+  },
+  "system": {
+    "pronunciation": "/ˈsɪstəm/",
+    "meaning": "A set of connected parts."
+  },
+  "target": {
+    "pronunciation": "/ˈtɑːrɡɪt/",
+    "meaning": "An object aimed at."
+  },
+  "thanks": {
+    "pronunciation": "/θæŋks/",
+    "meaning": "Expression of gratitude."
+  },
+  "theory": {
+    "pronunciation": "/ˈθɪəri/",
+    "meaning": "A system of ideas explaining something."
+  },
+  "travel": {
+    "pronunciation": "/ˈtrævəl/",
+    "meaning": "To go from one place to another."
+  },
+  "unique": {
+    "pronunciation": "/juːˈniːk/",
+    "meaning": "Being the only one of its kind."
+  },
+  "update": {
+    "pronunciation": "/ˌʌpˈdeɪt/",
+    "meaning": "To bring up to date."
+  },
+  "useful": {
+    "pronunciation": "/ˈjuːsfəl/",
+    "meaning": "Able to be used for a purpose."
+  },
+  "valley": {
+    "pronunciation": "/ˈvæli/",
+    "meaning": "A low area between hills."
+  },
+  "vision": {
+    "pronunciation": "/ˈvɪʒən/",
+    "meaning": "The ability to see."
+  },
+  "volume": {
+    "pronunciation": "/ˈvɒljuːm/",
+    "meaning": "The amount of space occupied."
+  },
+  "wealth": {
+    "pronunciation": "/welθ/",
+    "meaning": "An abundance of valuable possessions."
+  },
+  "weight": {
+    "pronunciation": "/weɪt/",
+    "meaning": "The heaviness of something."
+  },
+  "window": {
+    "pronunciation": "/ˈwɪndoʊ/",
+    "meaning": "An opening in a wall for light or air."
+  },
+  "winner": {
+    "pronunciation": "/ˈwɪnər/",
+    "meaning": "A person who wins."
+  },
+  "winter": {
+    "pronunciation": "/ˈwɪntər/",
+    "meaning": "The coldest season of the year."
+  },
+  "within": {
+    "pronunciation": "/wɪˈðɪn/",
+    "meaning": "Inside the limits of."
+  },
+  "wonder": {
+    "pronunciation": "/ˈwʌndər/",
+    "meaning": "A feeling of amazement."
+  },
+  "worker": {
+    "pronunciation": "/ˈwɜːrkər/",
+    "meaning": "A person who works."
+  },
+  "writer": {
+    "pronunciation": "/ˈraɪtər/",
+    "meaning": "A person who writes."
+  },
+  "yellow": {
+    "pronunciation": "/ˈjeloʊ/",
+    "meaning": "A color between green and orange."
+  }
+}
