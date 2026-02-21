@@ -133,6 +133,9 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
     game = games[chat_id]
 
     if guess_word in game["guessed"]:
+        await update.message.reply_text(
+            "Someone has already guessed your word. Please try another one!"
+        )
         return
 
     game["guessed"].add(guess_word)
