@@ -146,7 +146,7 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if guess_word not in WORDS:
         await context.bot.send_message(
             chat_id=chat_id,
-            f"{guess_word} is not a valid word."
+            text=f"{guess_word} is not a valid word."
         )
         return
 
