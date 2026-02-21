@@ -1,5 +1,6 @@
 import random
 import os
+import json
 from dotenv import load_dotenv
 from telegram import Update
 from telegram.ext import (
@@ -16,10 +17,16 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 WORD_LENGTH = 6
 MAX_ATTEMPTS = 6
 
+# Load word list
 with open("words.txt", "r") as f:
     WORDS = [w.strip().lower() for w in f if len(w.strip()) == WORD_LENGTH]
 
+# Load dictionary
+with open("dictionary.json", "r") as f:
+    DICTIONARY = json.load(f)
+
 games = {}
+leaderboard = {}
 
 
 def generate_feedback(secret, guess):
@@ -43,22 +50,20 @@ def generate_feedback(secret, guess):
 
 def build_board(board):
     lines = []
-
     for row in board:
         blocks = " ".join(row["feedback"])
         word = row["word"]
-        lines.append(f"{blocks}  {word}")
-
+        lines.append(f"{blocks}   {word}")
     return "\n".join(lines)
 
 
-# START GAME
 async def new_game(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
 
     if chat_id in games:
-        await update.message.reply_text(
-            "There is already a game in progress in this chat. Use /end to end it."
+        await context.bot.send_message(
+            chat_id=chat_id,
+            text="There is already a game in progress. Use /end to stop it."
         )
         return
 
@@ -71,10 +76,12 @@ async def new_game(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "attempts": 0
     }
 
-    await update.message.reply_text("🧠 WordSeek 6 Started!\nGuess the 6-letter word.")
+    await context.bot.send_message(
+        chat_id=chat_id,
+        text="🧠 WordSeek 6 Started!\nGuess the 6-letter word."
+    )
 
 
-# END GAME
 async def end_game(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
 
@@ -83,14 +90,14 @@ async def end_game(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     secret = games[chat_id]["secret"]
 
-    await update.message.reply_text(
-        f"Game ended. Correct word was: {secret.upper()}"
+    await context.bot.send_message(
+        chat_id=chat_id,
+        text=f"Game ended. Correct word was: {secret.upper()}"
     )
 
     del games[chat_id]
 
 
-# HANDLE GUESS
 async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
 
@@ -100,6 +107,13 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
     guess_word = update.message.text.lower().strip()
 
     if len(guess_word) != WORD_LENGTH:
+        return
+
+    if guess_word not in WORDS:
+        await context.bot.send_message(
+            chat_id=chat_id,
+            text=f"{guess_word} is not a valid word."
+        )
         return
 
     game = games[chat_id]
@@ -119,24 +133,60 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     board_text = build_board(game["board"])
 
-    # 🔥 ORIGINAL STYLE: Send new message every guess
     await context.bot.send_message(
         chat_id=chat_id,
-        text=f"{board_text}"
+        text=f"WordSeek\n{board_text}"
     )
 
     # WIN
     if guess_word == game["secret"]:
-        await update.message.reply_text("🎉 Correct! You won!")
+        winner = update.effective_user.first_name
+        attempts = game["attempts"]
+
+        points = (MAX_ATTEMPTS - attempts + 1) * 2
+        leaderboard[winner] = leaderboard.get(winner, 0) + points
+
+        word = game["secret"]
+        data = DICTIONARY.get(word, {})
+        pronunciation = data.get("pronunciation", "")
+        meaning = data.get("meaning", "Meaning not available.")
+
+        await context.bot.send_message(
+            chat_id=chat_id,
+            text=(
+                f"🎉 Congrats {winner}! You guessed it correctly.\n"
+                f"Added {points} to the leaderboard.\n"
+                f"Start with /new\n\n"
+                f"📖 Correct Word: {word}\n"
+                f"{word.capitalize()} {pronunciation}\n\n"
+                f"Meaning:\n{meaning}"
+            )
+        )
+
         del games[chat_id]
         return
 
     # LOSE
     if game["attempts"] >= MAX_ATTEMPTS:
-        await update.message.reply_text(
-            f"❌ Game Over!\nCorrect word was: {game['secret'].upper()}"
+        await context.bot.send_message(
+            chat_id=chat_id,
+            text=f"❌ Game Over!\nCorrect word was: {game['secret'].upper()}"
         )
         del games[chat_id]
+
+
+async def show_leaderboard(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if not leaderboard:
+        await update.message.reply_text("Leaderboard is empty.")
+        return
+
+    sorted_board = sorted(leaderboard.items(), key=lambda x: x[1], reverse=True)
+
+    text = "🏆 Leaderboard:\n\n"
+    for name, score in sorted_board:
+        text += f"{name}: {score}\n"
+
+    await update.message.reply_text(text)
 
 
 def main():
@@ -144,6 +194,7 @@ def main():
 
     app.add_handler(CommandHandler("new", new_game))
     app.add_handler(CommandHandler("end", end_game))
+    app.add_handler(CommandHandler("leaderboard", show_leaderboard))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, guess))
 
     print("Bot running...")
