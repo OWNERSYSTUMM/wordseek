@@ -76,7 +76,8 @@ async def new_game(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
 
     if chat_id in games:
-        await update.message.reply_text(
+        await context.bot.send_message(
+            chat_id=chat_id,
             "There is already a game in progress. Use /end to stop it."
         )
         return
@@ -91,7 +92,8 @@ async def new_game(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "current_points": float(BASE_POINTS),
     }
 
-    await update.message.reply_text(
+    await context.bot.send_message(
+        chat_id=chat_id,
         "Game started! Guess the 6 letter word!"
     )
 
@@ -121,7 +123,8 @@ async def end_game(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     message += "</blockquote>\nStart a new game with /new"
 
-    await update.message.reply_text(
+    await context.bot.send_message(
+        chat_id=chat_id,
         message,
         parse_mode="HTML"
     )
@@ -141,7 +144,8 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
     if guess_word not in WORDS:
-        await update.message.reply_text(
+        await context.bot.send_message(
+            chat_id=chat_id,
             f"{guess_word} is not a valid word."
         )
         return
@@ -149,7 +153,8 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
     game = games[chat_id]
 
     if guess_word in game["guessed"]:
-        await update.message.reply_text(
+        await context.bot.send_message(
+            chat_id=chat_id,
             "Someone has already guessed your word. Please try another one!"
         )
         return
@@ -172,8 +177,9 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     board_text = build_board(game["board"])
 
-    await update.message.reply_text(
-        f"{board_text}"
+    await context.bot.send_message(
+        chat_id=chat_id,
+        text=f"{board_text}"
     )
 
     # ✅ WIN
