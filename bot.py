@@ -120,7 +120,8 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
     board_text = build_board(game["board"])
 
     # 🔥 ORIGINAL STYLE: Send new message every guess
-    await update.message.reply_text(
+    await context.bot.send_message(
+        chat_id=chat_id,
         f"{board_text}"
     )
 
