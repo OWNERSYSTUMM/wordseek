@@ -45,7 +45,7 @@ def build_board(board):
     lines = []
 
     for row in board:
-        blocks = "".join(row["feedback"])
+        blocks = " ".join(row["feedback"])
         word = row["word"]
         lines.append(f"{blocks}  {word}")
 
@@ -121,7 +121,7 @@ async def guess(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # 🔥 ORIGINAL STYLE: Send new message every guess
     await update.message.reply_text(
-        f"WordSeek\n{board_text}"
+        f"{board_text}"
     )
 
     # WIN
