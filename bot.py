@@ -78,7 +78,7 @@ async def new_game(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if chat_id in games:
         await context.bot.send_message(
             chat_id=chat_id,
-            "There is already a game in progress. Use /end to stop it."
+            text="There is already a game in progress. Use /end to stop it."
         )
         return
 
@@ -125,7 +125,7 @@ async def end_game(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     await context.bot.send_message(
         chat_id=chat_id,
-        message,
+        text=message,
         parse_mode="HTML"
     )
 
